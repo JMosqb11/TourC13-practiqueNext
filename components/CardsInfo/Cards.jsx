@@ -11,7 +11,7 @@ export default function MediaCard() {
 
 <div className="CardsInforamation-general">
     
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} className="Card-items">
       <CardMedia
         sx={{ height: 140 }}
         image="https://res.cloudinary.com/dk9ktxdpj/image/upload/v1672947108/the-morgana-poblado-suites_nevwtf.jpg"
@@ -30,7 +30,7 @@ export default function MediaCard() {
       </CardActions>
     </Card>
 
-<Card sx={{ maxWidth: 345 }}>
+<Card sx={{ maxWidth: 345 }} className="Card-items">
 <CardMedia
   sx={{ height: 140 }}
   image="https://res.cloudinary.com/dk9ktxdpj/image/upload/v1672947108/Mi_palenque_tfx8wq.jpg"
@@ -49,7 +49,7 @@ export default function MediaCard() {
 </CardActions>
 </Card>
 
-<Card sx={{ maxWidth: 345 }}>
+<Card sx={{ maxWidth: 345 }} className="Card-items">
       <CardMedia
         sx={{ height: 140 }}
         image="https://res.cloudinary.com/dk9ktxdpj/image/upload/v1672947108/AfrooTour_kjmmzo.jpg"

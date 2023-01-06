@@ -34,3 +34,43 @@ a {
 .Autocomplete{
   width: 520px;
 }
+
+@media screen and (max-width: 767px){
+
+.CardsInforamation-general{
+  display: flex;
+  flex-direction: column;
+} 
+
+.Card-items{
+  margin-bottom: 30px;
+}
+
+.FilterInput{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: 42px;
+}
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1080px) {
+
+  .CardsInforamation-general{
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  
+  .Card-items{
+    margin-bottom: 30px;
+  }
+  
+  .FilterInput{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 42px;
+  }
+
+}
